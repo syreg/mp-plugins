@@ -694,10 +694,10 @@ class SyregStrmadd(_PluginBase):
                                             {
                                                 'component': 'a',
                                                 'props': {
-                                                    'href': 'https://raw.githubusercontent.com/syreg/mp-plugins/main/docs/StrmAdd.md',
+                                                    'href': 'https://raw.githubusercontent.com/syreg/mp-plugins/refs/heads/main/docs/strmadd.md',
                                                     'target': '_blank'
                                                 },
-                                                'text': 'https://raw.githubusercontent.com/syreg/mp-plugins/main/docs/StrmAdd.md'
+                                                'text': 'https://raw.githubusercontent.com/syreg/mp-plugins/refs/heads/main/docs/strmadd.md'
                                             }
                                         ]
                                     }
