@@ -23,7 +23,7 @@ class SyregStrmadd(_PluginBase):
     # 插件描述
     plugin_desc = "定时扫描云盘文件，生成Strm增量文件。"
     # 插件图标
-    plugin_icon = "https://raw.githubusercontent.com/syreg/mp-plugins/main/icons/strmadd.png"
+    plugin_icon = "https://raw.githubusercontent.com/syreg/mp-plugins/refs/heads/main/icons/strmcreate.png"
     # 插件版本
     plugin_version = "1.0.0"
     # 插件作者
