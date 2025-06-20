@@ -4,7 +4,7 @@
     "description": "监控文件创建，实现Strm增量生成。",
     "labels": "云盘",
     "version": "1.0.0",
-    "icon": "https://raw.githubusercontent.com/syreg/mp-plugins/main/icons/strmadd.png",
+    "icon": "https://raw.githubusercontent.com/syreg/mp-plugins/main/icons/strmcreate.png",
     "author": "syreg",
     "level": 1,
     "v2": false,
