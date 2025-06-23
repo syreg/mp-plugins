@@ -220,7 +220,7 @@ class SyregStrmadd(_PluginBase):
                             # 不复制非媒体文件时直接过滤掉非媒体文件
                         if not self._copy_files and Path(file).suffix not in [ext.strip() for ext in self._rmt_mediaext.split(",")]:
                             continue
-                        logger.info(f"扫描到增量目录 ： {increment_dir} 内有媒体资源，正在处理 …… ")
+                        logger.info(f"扫描到增量目录 ：{increment_dir} 内有媒体资源，正在处理 …… ")
                         logger.info(f"扫描到增量文件 ：{increment_file}")
 
                         # 移动到目标目录
