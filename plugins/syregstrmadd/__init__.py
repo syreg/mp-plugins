@@ -200,7 +200,6 @@ class SyregStrmadd(_PluginBase):
 
         logger.info("云盘strm生成任务开始")
         for increment_dir in self._increment_dir.keys():
-            logger.info(f"正在扫描增量目录 {increment_dir}")
             for root, dirs, files in os.walk(increment_dir):
                 # 如果遇到名为'extrafanart'的文件夹，则跳过处理该文件夹，继续处理其他文件夹
                 if "extrafanart" in dirs:
@@ -222,6 +221,7 @@ class SyregStrmadd(_PluginBase):
                             # 不复制非媒体文件时直接过滤掉非媒体文件
                         if not self._copy_files and Path(file).suffix not in [ext.strip() for ext in self._rmt_mediaext.split(",")]:
                             continue
+                        logger.info(f"扫描到增量目录 {increment_dir} 内有媒体资源：")
                         logger.info(f"扫描到增量文件 ：{increment_file}")
 
                         # 移动到目标目录
