@@ -260,7 +260,6 @@ class SyregStrmadd(_PluginBase):
                         break
 
         logger.info("strm增量文件生成任务完成！")
-        logger.info("")
         if event:
             self.post_message(channel=event.event_data.get("channel"),
                               title="strm增量生成任务完成！",
