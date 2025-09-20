@@ -19,7 +19,7 @@ from app.utils.system import SystemUtils
 
 class SyregStrmadd(_PluginBase):
     # 插件名称
-    plugin_name = "Strm增量生成"
+    plugin_name = "Strm增量生成(自用)"
     # 插件描述
     plugin_desc = "定时扫描云盘文件，生成Strm增量文件。"
     # 插件图标
