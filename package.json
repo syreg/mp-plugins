@@ -1,6 +1,6 @@
 {
   "SyregStrmadd": {
-    "name": "Strm增量生成",
+    "name": "Strm增量生成(自用)",
     "description": "监控文件创建，实现Strm增量生成。",
     "labels": "云盘",
     "version": "1.0.0",
